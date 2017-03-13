@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+  <form action="fakepage.html" method="POST">
+
+    <table cellpadding="10">
+      <tr>
+        <td style="text-align: right">First Name:</td>
+        <td><input type="text" name="nameFirst"/></td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Last Name:</td>
+        <td><input type="text" name="nameLast" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Email:</td>
+        <td><input type="text" name="email" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Type of License:</td>
+        <td><input type="radio" name="licenseType" value="BUSINESS" checked />Business
+        <input type="radio" name="licenseType" value="PERSONAL" />Personal</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Reason:</td>
+        <td>
+          <select name="reasonCode">
+          <option value="SR">Select a Reason</option>
+          <option value="SS">Software Support</option>
+          <option value="HS">Hardware Support</option>
+          <option value="IR">Information Request</option>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: right; vertical-align: text-top;">Additional Information:</td>
+        <td>
+          <textarea name="additionalInfo" rows="5"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="checkbox" name="termsCheck" />I have read the terms of service.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="text-align: center"><input type="submit"value="Send Request"></td>
+      </tr>
+    </form>
+  </body>
+</html>
