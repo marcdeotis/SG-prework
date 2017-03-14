@@ -15,8 +15,60 @@
     </table>
     <hr/>
     <br>
-    <br>
-    <br>
+    <form action="./contactUs.html" method="POST">
+    <table cellpadding="5">
+    <tr>
+    <td align="right">Name:</td>
+    <td><input type="text" name="name"/></td>
+    </tr>
+    <tr>
+    <td align="right">Email:</td>
+    <td><input type="text" name="email"/></td>
+    </tr>
+    <tr>
+    <td align="right">Phone:</td>
+    <td><input type="text" name="phone"/></td>
+    </tr>
+    <tr>
+    <td align="right">Reason for Inquiry:</td>
+    <td>
+      <select name="reason">
+        <option value="CATERING">Catering</option>
+        <option value="PRIVATEPARTY">Private Party</option>
+        <option value="FEEDBACK">Feedback</option>
+        <option value="OTHER">Other</option>
+      </select>
+    </td>
+    </tr>
+    <tr>
+    <td align="right" valign="top">Additional Information:</td>
+    <td><textarea name="additionalInfo" rows="7"></textarea></td>
+    </tr>
+    <tr>
+    <td align="right">Have you been to the restaurant?</td>
+    <td>
+    <input type="radio" name="visited" value="NO" checked>No
+    <input type="radio" name="visited" value="YES">Yes
+    </td>
+    </tr>
+    <tr>
+    <td align="right">Best days to contact you:</td>
+    <td>
+    <input type="checkbox" name="MONDAY">M
+    <input type="checkbox" name="TUESDAY">T
+    <input type="checkbox" name="WEDNESDAY">W
+    <input type="checkbox" name="THURSDAY">Th
+    <input type="checkbox" name="FRIDAY">F
+    </td>
+    </tr>
+    <tr>
+    <td></td>
+    <td align="right">
+    <input type="submit" value="Send Request">
+    </td>
+    </tr>
+    </table>
+    </form>
     <hr/>
     <div style="text-align: center;">
     2365 Broadcast Drive, Herndon, Virginia, 22090<br>
