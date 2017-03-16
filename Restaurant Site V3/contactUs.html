@@ -36,11 +36,11 @@
     <form action="./contactUs.html" method="POST">
     <table class="formTable">
     <tr>
-    <td>Name:</td>
+    <td class="required">Name:</td>
     <td><input type="text" name="name"/></td>
     </tr>
     <tr>
-    <td>Email:</td>
+    <td class="required">Email:</td>
     <td><input type="text" name="email"/></td>
     </tr>
     <tr>
@@ -48,7 +48,7 @@
     <td><input type="text" name="phone"/></td>
     </tr>
     <tr>
-    <td>Reason for Inquiry:</td>
+    <td class="required">Reason for Inquiry:</td>
     <td>
       <select name="reason">
         <option value="CATERING">Catering</option>
@@ -63,7 +63,7 @@
     <td><textarea name="additionalInfo" rows="7"></textarea></td>
     </tr>
     <tr>
-    <td>Have you been to the restaurant?</td>
+    <td class="required">Have you been to the restaurant?</td>
     <td>
     <input type="radio" name="visited" value="NO" checked>No
     <input type="radio" name="visited" value="YES">Yes
