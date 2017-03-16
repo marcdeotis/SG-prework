@@ -1,0 +1,96 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link href="./CSS/restaurantStyles.css" rel="stylesheet" type="text/css">
+    <title>Contact Us</title>
+    <style>
+      .formTable td {
+        padding: 5px
+      }
+      
+      .formTable td:first-child {
+        text-align: right;
+      }
+      
+      #submitButton {
+        float: right;
+      }
+      
+      .topalign {
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Moonbeam Pizza</h1>
+    <hr/>
+    <table class="menuBar">
+    <tr>
+    <td><a href="./home.html">Home</a></td>
+    <td><a href="./menu.html">Menu</a></td>
+    <td><a href="./contactUs.html">Contact Us</a></td>
+    </tr>
+    </table>
+    <hr/>
+    <br>
+    <form action="./contactUs.html" method="POST">
+    <table class="formTable">
+    <tr>
+    <td>Name:</td>
+    <td><input type="text" name="name"/></td>
+    </tr>
+    <tr>
+    <td>Email:</td>
+    <td><input type="text" name="email"/></td>
+    </tr>
+    <tr>
+    <td>Phone:</td>
+    <td><input type="text" name="phone"/></td>
+    </tr>
+    <tr>
+    <td>Reason for Inquiry:</td>
+    <td>
+      <select name="reason">
+        <option value="CATERING">Catering</option>
+        <option value="PRIVATEPARTY">Private Party</option>
+        <option value="FEEDBACK">Feedback</option>
+        <option value="OTHER">Other</option>
+      </select>
+    </td>
+    </tr>
+    <tr>
+    <td class="topalign">Additional Information:</td>
+    <td><textarea name="additionalInfo" rows="7"></textarea></td>
+    </tr>
+    <tr>
+    <td>Have you been to the restaurant?</td>
+    <td>
+    <input type="radio" name="visited" value="NO" checked>No
+    <input type="radio" name="visited" value="YES">Yes
+    </td>
+    </tr>
+    <tr>
+    <td>Best days to contact you:</td>
+    <td>
+    <input type="checkbox" name="MONDAY">M
+    <input type="checkbox" name="TUESDAY">T
+    <input type="checkbox" name="WEDNESDAY">W
+    <input type="checkbox" name="THURSDAY">Th
+    <input type="checkbox" name="FRIDAY">F
+    </td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>
+    <input type="submit" value="Send Request" id="submitButton">
+    </td>
+    </tr>
+    </table>
+    </form>
+    <hr/>
+    <div class="footer">
+    2365 Broadcast Drive, Herndon, Virginia, 22090<br>
+    703-975-9509
+    <div>
+  </body>
+</html>
