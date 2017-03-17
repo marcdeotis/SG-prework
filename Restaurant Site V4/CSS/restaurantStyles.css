@@ -9,10 +9,6 @@ h1 {
   font-family: "Permanent Marker"
 }
 
-th {
-  font-size: larger;
-}
-
 .footer {
   text-align: center;
 }
@@ -23,4 +19,17 @@ th {
 
 .required {
   font-weight: bold;
+}
+
+a:visited {
+  color: olive;
+}
+
+a:hover, a:focus {
+  font-weight: bold;  
+}
+
+a:active {
+  font-weight: normal;
+  text-decoration: none;
 }

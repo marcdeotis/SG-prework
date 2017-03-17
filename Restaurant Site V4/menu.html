@@ -4,13 +4,20 @@
     <link href="./CSS/restaurantStyles.css" rel="stylesheet" type="text/css">
     <title>Menu</title>
     <style>
-      .menuFood {
+      .menuFood, .menuBeverages, .menuBeverages caption {
         width: 100%;
-      }
-      
-      .menuFood {
         text-align: center;
         background-color: seashell;
+      }
+      
+      .menuFood th, .menuBeverages th {
+        font-size: larger;
+      }
+      
+      .menuBeverages caption {
+        font-size: x-large; 
+        font-weight: bold;
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -95,7 +102,23 @@
     </table>
     
     <br>
-    <br>
+    
+    <table class="menuBeverages">
+      <caption>Beverages</caption>
+      <tr>
+        <th>Root Beer</th>
+        <th>Bottled Water</th>
+        <th>Lemonade</th>
+        <th>Iced Tea</th>
+      </tr>
+      <tr>
+        <td>$3.00</td>
+        <td>$1.25</td>
+        <td>$1.00</td>
+        <td>$1.25</td>
+      </tr>
+    </table>
+    
     <br>
     <hr/>
     <div class="footer">
