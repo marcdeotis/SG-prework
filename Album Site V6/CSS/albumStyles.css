@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
+table {
+  width: 100%;
+}
+
+table, td, th {
+  border: 3px black solid;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: gray;
+}
+
+.hostedFont {
+  font-family: "Diplomata SC";
+}
+
+li {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  background-color: green;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: white;
+}
+
+tbody {
+  font-style: italic;
+  background-color: Azure;
+}
