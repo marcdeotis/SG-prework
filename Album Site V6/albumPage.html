@@ -2,17 +2,23 @@
 <html>
   <head>
     <title>Pinkerton</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+
     <link href="./CSS/albumStyles.css" rel="stylesheet" type="text/css">
     <style>
-      h2, td {
+      h2, td, th {
         text-align: center;
       }
     </style>
+
   </head>
   <body>
     <div style="text-align: center;">
-      <div style="background: url('../Images/Pinkerton_cover.jpg') no-repeat center; height: 300px;"></div>
-      <!--<img src="../Images/Pinkerton_cover.jpg" />-->
+      <!--<div style="background: url('../Images/Pinkerton_cover.jpg') no-repeat center; height: 300px;" class="img-circle"></div>-->
+      <img src="../Images/Pinkerton_cover.jpg" class="img-circle" />
       <h1 class="hostedFont">Pinkerton</h1>
       <h2><a href="http://www.weezer.com" target="_blank">Weezer</a></h2>
       <h3>Septermber 24, 1996</h3>
@@ -26,8 +32,9 @@
         <li>Scott Shriner - bass, keyboards</li>
         <li>Producer: Weezer</li>
       </ul>
-      <table>
-        <caption><h2>Tracks</h2></caption>
+      <div class="table-responsive">
+      <table class="table table-striped">
+      <caption><h2>Tracks</h2></caption>
         <thead>
           <tr>
             <th>Track #</th>
@@ -52,5 +59,7 @@
             <td>3:58</td>
           </tr>
         </tbody>
+        </table>
+        </div>
   </body>
 </html>
