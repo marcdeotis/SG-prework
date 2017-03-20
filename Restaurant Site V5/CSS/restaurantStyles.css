@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+html {
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Permanent Marker"
+}
+
+.footer {
+  text-align: center;
+}
+
+.menuBar td {
+  padding: 10px;
+}
+
+.required {
+  font-weight: bold;
+}
+
+a:visited {
+  color: olive;
+}
+
+a:hover, a:focus {
+  font-weight: bold;  
+}
+
+a:active {
+  font-weight: normal;
+  text-decoration: none;
+}
