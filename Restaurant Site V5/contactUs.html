@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+
     <link href="./CSS/restaurantStyles.css" rel="stylesheet" type="text/css">
     <title>Contact Us</title>
     <style>
@@ -24,13 +28,20 @@
   <body>
     <h1>Moonbeam Pizza</h1>
     <hr/>
-    <table class="menuBar">
-    <tr>
-    <td><a href="./home.html">Home</a></td>
-    <td><a href="./menu.html">Menu</a></td>
-    <td><a href="./contactUs.html">Contact Us</a></td>
-    </tr>
-    </table>
+    <ul class="nav nav-tabs">
+      <li><a href="./home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"><span class="sr-only">home</span></span></a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li class="active"><a href="./contactUs.html">Contact Us</a></li>
+    </ul>
+    <br>
+
+      <div class="jumbotron">
+      <div class="container">
+        <h1>New Store Opening</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+      </div>
+      </div>
+
     <hr/>
     <br>
     <form action="./contactUs.html" method="POST">
