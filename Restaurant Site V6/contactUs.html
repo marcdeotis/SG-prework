@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+
+    <link href="./CSS/restaurantStyles.css" rel="stylesheet" type="text/css">
+    <title>Contact Us</title>
+    <style>
+      .formTable td {
+        padding: 5px
+      }
+      
+      .formTable td:first-child {
+        text-align: right;
+      }
+      
+      #submitButton {
+        float: right;
+      }
+      
+      .topalign {
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Moonbeam Pizza</h1>
+    <hr/>
+    <ul class="nav nav-tabs">
+      <li><a href="./home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"><span class="sr-only">home</span></span></a></li>
+      <li><a href="./menu.html">Menu</a></li>
+      <li class="active"><a href="./contactUs.html">Contact Us</a></li>
+    </ul>
+    <br>
+
+      <div class="jumbotron">
+      <div class="container">
+        <h1>New Store Opening</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+      </div>
+      </div>
+
+    <hr/>
+    <br>
+    <form action="./contactUs.html" method="POST">
+    <table class="formTable">
+    <tr>
+    <td class="required">Name:</td>
+    <td><input type="text" name="name"/></td>
+    </tr>
+    <tr>
+    <td class="required">Email:</td>
+    <td><input type="text" name="email"/></td>
+    </tr>
+    <tr>
+    <td>Phone:</td>
+    <td><input type="text" name="phone"/></td>
+    </tr>
+    <tr>
+    <td class="required">Reason for Inquiry:</td>
+    <td>
+      <select name="reason">
+        <option value="CATERING">Catering</option>
+        <option value="PRIVATEPARTY">Private Party</option>
+        <option value="FEEDBACK">Feedback</option>
+        <option value="OTHER">Other</option>
+      </select>
+    </td>
+    </tr>
+    <tr>
+    <td class="topalign">Additional Information:</td>
+    <td><textarea name="additionalInfo" rows="7"></textarea></td>
+    </tr>
+    <tr>
+    <td class="required">Have you been to the restaurant?</td>
+    <td>
+    <input type="radio" name="visited" value="NO" checked>No
+    <input type="radio" name="visited" value="YES">Yes
+    </td>
+    </tr>
+    <tr>
+    <td>Best days to contact you:</td>
+    <td>
+    <input type="checkbox" name="MONDAY">M
+    <input type="checkbox" name="TUESDAY">T
+    <input type="checkbox" name="WEDNESDAY">W
+    <input type="checkbox" name="THURSDAY">Th
+    <input type="checkbox" name="FRIDAY">F
+    </td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>
+    <input type="submit" value="Send Request" id="submitButton">
+    </td>
+    </tr>
+    </table>
+    </form>
+    <hr/>
+    <div class="footer">
+    2365 Broadcast Drive, Herndon, Virginia, 22090<br>
+    703-975-9509
+    <div>
+  </body>
+</html>
