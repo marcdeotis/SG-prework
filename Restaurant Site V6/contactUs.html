@@ -35,14 +35,54 @@
     </ul>
     <br>
 
-      <div class="jumbotron">
-      <div class="container">
-        <h1>New Store Opening</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
-      </div>
-      </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <div class="carousel-inner" role="listbox">
 
-    <hr/>
+      <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>New Location Coming Soon!</h2>
+              <p>Pork loin porchetta capicola andouille leberkas ground round ham hock. Kielbasa venison t-bone picanha, biltong rump doner jowl swine burgdoggen meatloaf prosciutto andouille filet mignon.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Spring Menu Release Is Imminent</h2>
+              <p>Pig picanha filet mignon tenderloin cupim ribeye meatball drumstick. Tongue turkey kielbasa cupim short loin prosciutto swine.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Drink Of The Month - SG Special Brew</h2>
+              <p>Landjaeger capicola sirloin pork. Kielbasa beef corned beef, pork belly ham andouille biltong rump drumstick meatball filet mignon ground round t-bone turducken.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+    <noscript><h3 class="text-center text-danger">Banner above requires JavaScript to be enabled</h3></noscript>
+    <hr class="myHr" />
     <br>
     <form action="./contactUs.html" method="POST">
     <table class="formTable">
@@ -98,10 +138,17 @@
     </tr>
     </table>
     </form>
-    <hr/>
+    <hr class="myHr" />
     <div class="footer">
     2365 Broadcast Drive, Herndon, Virginia, 22090<br>
     703-975-9509
     <div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

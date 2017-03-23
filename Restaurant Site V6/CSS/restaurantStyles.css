@@ -29,3 +29,77 @@ a:active {
   font-weight: normal;
   text-decoration: none;
 }
+
+
+/* Carousel base class */
+.carousel {
+  height: 230px;
+  margin-bottom: 0px;
+}
+
+.carousel .item {
+  height: 230px;
+  background-color: #fff;
+}
+
+.carousel-indicators li, .carousel-indicators .active{
+  background-color: orange;
+  border: 2px solid black;
+  height: 12px;
+  width: 50px;
+  border-radius: 6px;
+}
+
+.carousel-indicators .active {
+  background-color: purple;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    font-size: 50px;
+  }
+
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 480px) {  
+  .carousel, .carousel .item {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {  
+  .carousel, .carousel .item {
+    height: 195px;
+  }
+}
+
+@media screen and (min-width: 960px) {  
+  .carousel, .carousel .item {
+    height: 160px;
+  }
+}
+  
+.carousel-caption {
+  color: black;
+}
+
+.carousel-caption p {
+  text-shadow: none;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  color: purple;
+}
+
+.myHr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
